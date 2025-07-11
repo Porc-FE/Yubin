@@ -1,7 +1,11 @@
+import Header from './components/Header';
+import Main from './pages/Main';
+
 export default function App() {
   return (
-    <>
-      <h1>App Component</h1>
-    </>
+    <div className="max-w-[1440px] m-auto">
+      <Header />
+      <Main />
+    </div>
   );
 }
